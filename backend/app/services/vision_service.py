@@ -135,8 +135,8 @@ async def analyze_device_image(image_bytes: bytes, filename: str, content_type: 
         mime = content_type if content_type.startswith("image/") else "image/jpeg"
 
         models_to_try = [
-            "gemini-flash-latest",
             "gemini-3.5-flash",
+            "gemini-flash-latest",
             "gemini-3.6-flash",
             "gemini-2.5-flash-lite",
         ]

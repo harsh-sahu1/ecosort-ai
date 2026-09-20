@@ -1,6 +1,14 @@
 import os
+import sys
 import logging
+from pathlib import Path
 from typing import List
+
+# Ensure backend directory is in sys.path regardless of execution cwd
+backend_dir = Path(__file__).resolve().parent.parent
+if str(backend_dir) not in sys.path:
+    sys.path.insert(0, str(backend_dir))
+
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv

@@ -34,7 +34,7 @@ Strict Grounding Rules:
 - Do NOT invent specific recycler names, locations, certifications, or medical/safety overclaims.
 - Keep tone objective, supportive, and eco-conscious. Return only plain text sentences.
 """
-            for m in ["gemini-flash-latest", "gemini-3.5-flash", "gemini-3.6-flash", "gemini-2.5-flash-lite"]:
+            for m in ["gemini-3.5-flash", "gemini-flash-latest", "gemini-3.6-flash", "gemini-2.5-flash-lite"]:
                 try:
                     res = client.models.generate_content(
                         model=m,
