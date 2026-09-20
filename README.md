@@ -2,6 +2,11 @@
 
 > **Know it. Decide it. Recycle it responsibly.**
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-emerald?style=for-the-badge&logo=github)](https://harsh-sahu1.github.io/ecosort-ai/)
+[![Repository](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/harsh-sahu1/ecosort-ai)
+
+**Live Web Application:** [https://harsh-sahu1.github.io/ecosort-ai/](https://harsh-sahu1.github.io/ecosort-ai/)
+
 EcoSort AI is an intelligent decision assistant that reduces the friction between owning an unwanted electronic device and taking the right next step. Ordinary consumers upload a photo of an electronic item; the system classifies the hardware and visible wear, guides them through 4 critical condition questions, and triggers a deterministic recommendation engine to output an actionable plan: **Repair**, **Reuse**, **Donate**, **Recycle**, or **Safety Alert**.
 
 ---
